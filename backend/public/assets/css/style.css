@@ -1,0 +1,129 @@
+.logo-lg img{
+    width: 150px;
+    height: 50px;
+}
+.auth-logo img{
+    width: 150px;
+    height: 50px; 
+}
+.invalid-feedback{
+    display: block !important;
+}
+/* chat css */
+.chat-box{
+    /* position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 300px; 
+    border: 1px solid gray;
+    z-index: 9999999;*/
+    border-radius: 5px;
+    background: white;
+}
+.chat-box .chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+}
+.chat-head-inner{
+    display: flex;
+    align-items: center;
+}
+.chat-head-inner h3{
+margin: 0;
+font-size: 17px;
+padding-left: 5px;
+}
+.chat-box .chat-header img{
+    width: 50px;
+    border-radius: 50px;
+
+}
+.chat-box .chat-body{
+    height: 400px;
+    position: relative;
+    padding: 0.5rem;
+    overflow: auto;
+}
+.no-chats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+.chat-body .message{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 220px;
+    margin-top: 1rem;
+}
+.chat-body .me{
+    display: flex;
+    justify-content: end;
+}
+.chat-body .me .message{
+    background: aliceblue;
+
+}
+.chat-body .message .name{
+color: gray;
+}
+.chat-body .message p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.message .datetime{
+    display: block;
+    color: gray;
+}
+.chat-box .chat-form{
+    width: 100%;
+    border-top: 1px solid gray;
+    padding: 0.5rem;
+
+}
+.send-message-box{
+    position: relative;
+    
+}
+.send-message-box .form-control{
+    padding-right: 63.59px;
+}
+.send-message-box .btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.notify-avatar{
+    display: flex;
+}
+.notify-avatar img{
+    width: 45px;
+    border-radius: 50px;
+}
+.name-text{
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.notify-main{
+    display: flex;
+}
+.unread-message{
+    background-color: #dcf1e6;
+}
+.notification-item{
+    margin-top: 0.5rem;
+}
+.muted_message{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* background-color: #F4F4F9; */
+    margin-top: 1rem;
+    border-radius: 15px;
+}
